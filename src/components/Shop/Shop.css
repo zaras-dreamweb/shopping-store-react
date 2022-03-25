@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.shop-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:50px;
+    margin: 100px 50px;
+} 
+
+.carriage-container{
+    background-color: rgb(253, 190, 89);
+}
